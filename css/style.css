@@ -9,6 +9,68 @@
 /*/Reset*/
 
 /*Common*/
+body {
+    margin: 0 10vw;
+    font-family: 'Lato', sans-serif;
 
+}
+
+.container {
+    width: 80%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    border: none;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: ;
+}
 /*/Common*/
 
+/*Header*/
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #3161E0;
+    position: relative;
+}
+
+.logo,
+.navbar nav,
+.login,
+.navbar li {
+    display: inline-block;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+
+}
+.logo, .login {
+    position:absolute;
+    top: -50%;
+}
+
+.navbar li {
+    padding: 0 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.logo {
+    left: 0;
+}
+.login {
+    right: 0;
+}
+
+
+/*/Header*/
