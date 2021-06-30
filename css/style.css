@@ -10,16 +10,16 @@
 
 /*Common*/
 body {
-    margin: 0 10vw;
     font-family: 'Lato', sans-serif;
 }
 
 .container {
-    width: 80%;
-    position:absolute;
+    width: 70%;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 button {
@@ -34,8 +34,8 @@ button {
 /*Header*/
 header {
     width: 100%;
-    height: 10vh;
-    background-color: #3161E0;
+    height: 100px;
+    background-color: #255EE9;
     position: relative;
 }
 
@@ -46,25 +46,8 @@ header {
     display: inline-block;
 }
 
-.navbar {
-    text-align: center;
-    height: 100%;
-}
-
-.navbar li {
-    padding: 0 20px;
-}
-.navbar a {
-    text-decoration: none;
-    color: #FFF;
-}
-
-.navbar nav, {
-    line-height: 10vh;
-
-}
-
 .logo {
+    vertical-align: middle;
     float: left;
 }
 
@@ -72,4 +55,34 @@ header {
     float: right;
 }
 
+.navbar {
+    position: relative;
+    text-align: center;
+}
+
+.navbar nav {
+    float: none;
+}
+.navbar li {
+    padding: 0 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #FFF;
+
+}
+
 /*/Header*/
+
+/*Main*/
+
+.hero {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+
+
+/*/Main*/
