@@ -12,7 +12,6 @@
 body {
     margin: 0 10vw;
     font-family: 'Lato', sans-serif;
-
 }
 
 .container {
@@ -26,10 +25,10 @@ body {
 button {
     border: none;
     font-family: 'Lato', sans-serif;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 25px;
-    font-weight: ;
 }
+
 /*/Common*/
 
 /*Header*/
@@ -48,13 +47,8 @@ header {
 }
 
 .navbar {
-    position: relative;
-    width: 100%;
-
-}
-.logo, .login {
-    position:absolute;
-    top: -50%;
+    text-align: center;
+    height: 100%;
 }
 
 .navbar li {
@@ -65,12 +59,17 @@ header {
     color: #FFF;
 }
 
-.logo {
-    left: 0;
-}
-.login {
-    right: 0;
+.navbar nav, {
+    line-height: 10vh;
+
 }
 
+.logo {
+    float: left;
+}
+
+.login {
+    float: right;
+}
 
 /*/Header*/
