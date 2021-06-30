@@ -210,5 +210,30 @@ header {
 .bottom-image img{
     height: 700px;
 }
+
+
+.action{
+    position: relative;
+    height: 30vh;
+    text-align: center;
+}
+
+.action h3 {
+    font-size: 1.9em;
+}
+
+.bottom-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bottom{
+    margin-top: 30px;
+    background-color: #8EA1E1;
+    color: #FFF;
+    font-size: 1.2em;
+}
 /*/Bottom section*/
 /*/Main*/
