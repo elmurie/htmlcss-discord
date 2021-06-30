@@ -145,19 +145,22 @@ header {
 
 /*Section one*/
 
-.section-1 .col-left {
+.section-1 .col-left, 
+.section-3 .col-left {
     padding-top: 80px;
     padding-left: 100px;
 }
 
-.section-1 .col-right {
+.section-1 .col-right, 
+.section-3 .col-right {
+
     padding-top: 106px;
     padding-left: 150px;
     width: 33%;
     text-align: left;
 }
 
-.section-1 .col-right p{
+.section-1 .col-right p, .section-3 .col-right p {
     line-height: 2;
     padding-top: 20px;
 }
