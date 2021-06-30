@@ -98,7 +98,10 @@ header {
 .navbar a {
     text-decoration: none;
     color: #FFF;
+}
 
+h3 {
+    font-size: 1.9em;
 }
 
 /*/Header*/
@@ -218,10 +221,6 @@ header {
     text-align: center;
 }
 
-.action h3 {
-    font-size: 1.9em;
-}
-
 .bottom-container {
     position: absolute;
     top: 50%;
@@ -235,5 +234,101 @@ header {
     color: #FFF;
     font-size: 1.2em;
 }
+
 /*/Bottom section*/
 /*/Main*/
+
+/*Footer*/
+
+footer {
+    height: 80vh;
+    background-color: #23272A;
+}
+
+footer .container {
+    width: 70%;
+}
+.row {
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #8EA1E1;
+}
+
+footer h3 {
+    color: #8EA1E1;
+    padding-bottom: 25px;
+}
+.fab {
+    font-size: 1.5em;
+    padding-right: 25px;
+    color: white;
+}
+
+#flag {
+    height: 20px;
+    vertical-align: middle;
+    /* padding-bottom: 25px; */
+}
+
+.select {
+    padding-bottom: 25px;
+}
+select {
+    background-color: #23272A;
+    color: #FFF;
+    border: none;
+}
+
+.row li {
+    list-style: none;
+}
+
+.row a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h4 {
+    color: #8EA1E1;
+}
+
+.big-left,
+.big-right,
+.col {
+    float: left;
+}
+
+.big-left {
+    width: 25%;
+    padding-right: 100px;
+
+}
+
+.big-right{
+    padding-left: 100px;
+    width: 75%;
+}
+
+.col {
+    width: 25%;
+    padding-top: 10px;
+}
+
+.col li {
+    padding: 10px 0;
+} 
+
+.bottom-row {
+    padding-top: 30px;
+    vertical-align: middle;
+}
+
+#sub {
+    background-color: #8EA1E1;
+    color: #FFF;
+    font-size: .8em;
+    float: right;
+    padding: 10px 20px;
+}
+/*/Footer*/
