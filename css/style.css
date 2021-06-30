@@ -30,12 +30,18 @@ button {
     background-color: white;
 }
 
-h1 {
+h1, h2 {
     font-size: 3.5em;
 }
 
 p {
     font-size: 1.2em;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /*/Common*/
@@ -127,5 +133,25 @@ header {
 }
 
 /*/Hero*/
+
+/*Section one*/
+
+.section-1 {
+    position: relative;
+    height: 100vh;
+
+}
+
+#frog {
+    float: left;
+}
+
+.section-text {
+    float: left;
+    padding: 80px;
+}
+
+
+/*/Section one*/
 
 /*/Main*/
