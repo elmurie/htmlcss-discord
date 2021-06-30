@@ -53,23 +53,25 @@ header {
 .login,
 .navbar li {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .logo {
     vertical-align: middle;
-    float: left;
 }
 
 .login {
-    float: right;
+    padding: 10px 15px;
+    font-size: 1em;
 }
 .navbar {
-    position: relative;
+    padding-top: 20px;
     text-align: center;
 }
 
 .navbar nav {
-    float: none;
+    margin: 0 280px;
+
 }
 .navbar li {
     padding: 0 20px;
