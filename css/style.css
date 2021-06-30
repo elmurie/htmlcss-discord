@@ -143,7 +143,7 @@ header {
 
 /*/Hero*/
 
-/*Section one*/
+/*Section one and three*/
 
 .section-1 .col-left, 
 .section-3 .col-left {
@@ -166,7 +166,7 @@ header {
 }
 
 
-/*/Section one*/
+/*/Section one and three*/
 
 /*Section two*/
 
@@ -190,4 +190,25 @@ header {
 
 }
 /*/Section two*/
+
+/*Bottom section*/
+
+.bottom-text, .bottom-image{
+    text-align: center;
+}
+
+.bottom-text {
+    padding-top: 80px;
+}
+
+.bottom-text p {
+    line-height: 2;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bottom-image img{
+    height: 700px;
+}
+/*/Bottom section*/
 /*/Main*/
